@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB468E942437BF2100A95A6B /* HeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB468E932437BF2100A95A6B /* HeaderModel.swift */; };
+		CB468E962437BFB300A95A6B /* HeaderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB468E952437BFB300A95A6B /* HeaderData.swift */; };
 		CB4B85B524348E4600721E02 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4B85B424348E4600721E02 /* HeaderView.swift */; };
 		CB4DB17C2433B62E00046167 /* AvocadosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4DB17B2433B62E00046167 /* AvocadosView.swift */; };
 		CB4DB17E2433B66100046167 /* RipeningStagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4DB17D2433B66100046167 /* RipeningStagesView.swift */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CB468E932437BF2100A95A6B /* HeaderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderModel.swift; sourceTree = "<group>"; };
+		CB468E952437BFB300A95A6B /* HeaderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderData.swift; sourceTree = "<group>"; };
 		CB4B85B424348E4600721E02 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		CB4DB17B2433B62E00046167 /* AvocadosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocadosView.swift; sourceTree = "<group>"; };
 		CB4DB17D2433B66100046167 /* RipeningStagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningStagesView.swift; sourceTree = "<group>"; };
@@ -50,6 +54,7 @@
 		CB4DB1782433B5B600046167 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				CB468E952437BFB300A95A6B /* HeaderData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -57,6 +62,7 @@
 		CB4DB1792433B5BF00046167 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CB468E932437BF2100A95A6B /* HeaderModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -186,12 +192,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB4DB17C2433B62E00046167 /* AvocadosView.swift in Sources */,
+				CB468E942437BF2100A95A6B /* HeaderModel.swift in Sources */,
 				CB4DB17E2433B66100046167 /* RipeningStagesView.swift in Sources */,
 				CB90DCD02430F445006F01AD /* AppDelegate.swift in Sources */,
 				CB4DB1822433B6B200046167 /* AppView.swift in Sources */,
 				CB4DB1802433B68C00046167 /* SettingsView.swift in Sources */,
 				CB90DCD22430F445006F01AD /* SceneDelegate.swift in Sources */,
 				CB90DCD42430F445006F01AD /* ContentView.swift in Sources */,
+				CB468E962437BFB300A95A6B /* HeaderData.swift in Sources */,
 				CB4B85B524348E4600721E02 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
